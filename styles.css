@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(187, 208, 255), rgb(255, 214, 255)); /* Degradê rosa */
+
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra suave */
+    
+
+body::before,
+body::after {
+    content: '❤️';
+    font-size: 3em;
+    color: #ff0000;
+    position: fixed;
+    opacity: 0.2;
+}
+
+body::before {
+    top: 10px;
+    left: 10px;
+}
+
+body::after {
+    bottom: 10px;
+    right: 10px;
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(255, 214, 255), rgb(187, 208, 255)); /* Degradê rosa */
+    text-align: center;
+    padding: 10px;
+    font-family: Valentine Cute;
+    
+
+    
+    
+}
+.subtxt {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+header h1 {
+    color: #721c24;
+    
+    
+}
+
+.list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style:solid;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: auto;
+}
+
+.beautiful-text {
+    color: #3f0944;
+    text-shadow: 2px 2px 4px rgba(104, 100, 100, 0.5);
+    transition: color 0.3s ease; /* Adiciona uma transição suave de cor */
+}
+
+.beautiful-text:hover {
+    color: #ff4081; /* Cor diferente quando o mouse está sobre o texto */
+}
+
+h1 {
+    font-family: garet;
+    font-size: large;
+
+}
